@@ -5,19 +5,19 @@
     <body>
         <div>
             <div>DetaILS  Of lA CUstOmer</div>
-            <form>
+            <form action="/details" method="POST">
                 Name: <input type="text" name="user_name"> <br>
 
-                Phone: <input type="text" name="contact_no"> <br>
+                Phone: <input type="text" name="phone_number"> <br>
 
-                Total Items: <input type="number" name="Number_of_items"> <br>
+                Total Items: <input type="number" name="number_of_items"> <br>
                 
-                Total Amount: <input type="number" name="amount"> <br>
+                Total Amount: <input type="number" name="total_amount"> <br>
                 
-                Date: <input type="date" name="current_date"> <br>>
+                Date: <input type="date" name="order_date"> <br>>
                 <div>
-                    <button>Submit</button>
-                    <button>Today's winner!</button>
+                    <button type="submit">Submit</button>
+                    <button type="button">Today's winner!</button>
                 </div>
             </form>
         </div>
