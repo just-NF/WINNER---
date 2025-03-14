@@ -7,6 +7,12 @@
         <div>
             <div>
                 <h1>The Winner is:</h1>
+                {% if user_name %}
+                <h4>Highest amount of purchase is done by {{user_name}} whose contact is {{phone_number}}</h4>
+
+                {% endif %}
+
+                <a href="/">ENTRY FORM</a>
             </div>
         </div>
     </body>
